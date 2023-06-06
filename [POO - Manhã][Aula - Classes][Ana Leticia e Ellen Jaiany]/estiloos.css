@@ -1,0 +1,61 @@
+/* Para criar uma classe. inicie com um ponto.*/
+body{
+    background-color: rgb(199, 250, 250); /*cor de fundo*/
+}
+
+
+
+.container-cards{
+    display:flex; /*imagens alinhadas ao lado*/
+    flex-wrap: wrap; /*imagem quebra para baixo se passar da linha*/
+    gap: 25px; /*espaço dos quadradrinhos*/
+    font-family:Georgia, 'Times New Roman', Times, serif; /*fonte*/
+   
+}
+.card{
+    border: solid 1px black; /*cor da borda*/
+    border-radius: 20px; /* arredonda as quinas*/
+    padding: 16px; /*espaço da borda para a letra*/
+    background-color: white; /*cor dos quadradinhos*/
+    color: white; /*cor da letra*/
+    box-shadow: 4px 4px 16px rgb(98, 147, 246); /*colocar fundo 3d*/
+
+}
+/*quando passar o mouse*/
+.card:hover{
+    box-shadow: 4px 4px 16px rgb(122, 15, 194); /*colocar fundo 3d*/
+
+}
+.card img{
+    width: 330px; /*tamanho das imagens se referindo a largura*/
+    height: 270px; /*altura*/
+    
+    object-fit:contain; /*sempre que modificar a largura e a altura, para ficar proporcional*/
+
+}
+
+/*criando classes para cada linha*/
+.modelo{
+    color: rgb(106, 6, 119)
+}
+.marca{
+    color:rgb(106, 6, 119)
+}
+.qtdDecam{
+    color:rgb(106, 6, 119)
+}
+.arm{
+    color:rgb(106, 6, 119)
+}
+.ram{
+    color:rgb(106, 6, 119);
+    /*text-align-last: right; /*alinhar texto na direita*/
+}
+.proc{
+    color:rgb(106, 6, 119);
+    /*text-align-last: right; /*alinhar texto na direita*/
+}
+.tamanho{ /*tv*/
+    color:rgb(106, 6, 119);
+    /*text-align-last: right; /*alinhar texto na direita*/
+}
